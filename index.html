@@ -281,7 +281,7 @@ async function runQuery() {
   try {
     let resp;
     try {
-      resp = await fetch('https://api.anthropic.com/v1/messages', {
+      resp = await fetch('https://dfc-proxy.onrender.com/v1/messages', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
